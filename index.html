@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-geral">
+        <div class="menu-title">
+            <h1>Conversor de Moedas</h1>
+            <button id="btnMenu"> + </button>
+        </div>
+        <label class="labelMain" for="quantiaInput">Quantia:</label>
+        <input id="quantiaInput" type="number" min="1" value="1">
+        <button id="btnSubmit"> Converter BRL para USD</button>
+
+        <p class="labelMain">Valor convertido:</p>
+        <div id="valorContainer"> 
+            <p class="valorConvertido"></p>
+        </div>
+
+        
+        <dialog id="menu">
+            <div class="wrapper">
+                <h2>Opções</h2>
+                <p>Moeda Inicial:</p>
+                <div class="radio-group">
+                    <label><input checked type="radio" name="moedaInicial" value="BRL"> Real (R$)</label>
+                    <label><input type="radio" name="moedaInicial" value="USD"> Dólar (US$)</label>
+                    <label><input type="radio" name="moedaInicial" value="EUR"> Euro (€)</label>
+                </div>
+    
+                <p>Converter Para:</p>
+                <div class="radio-group">
+                    <label><input type="radio" name="moedaDestino" value="BRL"> Real (R$)</label>
+                    <label><input checked type="radio" name="moedaDestino" value="USD"> Dólar (US$)</label>
+                    <label><input type="radio" name="moedaDestino" value="EUR"> Euro (€)</label>
+                </div> 
+    
+                <button id="fecharMenu">Concluir</button>
+
+            </div>
+        </dialog>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
