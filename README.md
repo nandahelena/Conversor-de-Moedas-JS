@@ -3,7 +3,7 @@ Converte valores entre Real (BRL), Dólar (USD) e Euro (EUR)
 
 ## 📦 Como usar  
 1. Clone o repositório:  
-`git clone https://github.com/nandahelena/Conversor-de-Moedas-JS.git`
+`git clone https://github.com/nandahelena/conversor-js.git`
 3. Abra o `index.html` no navegador
 4. (Opcional) Se estiver usando o VS Code, instale a extensão Live Server e clique com o botão direito em index.html > "Open with Live Server" para rodar o projeto localmente.
    
