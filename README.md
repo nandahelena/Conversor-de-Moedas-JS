@@ -4,39 +4,39 @@ Conversor de valores entre Real (BRL), Dólar (USD) e Euro (EUR)
 [![MIT License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 
 ## 📜 **Descrição**  
-Este é um simples conversor de moedas feito com **HTML**, **CSS** e **JavaScript**. Ele permite converter valores entre **BRL (Real)**, **USD (Dólar)** e **EUR (Euro)** em tempo real.
+Este é um conversor de moedas simples, desenvolvido com **HTML**, **CSS** e **JavaScript**, permitindo a conversão entre **BRL (Real)**, **USD (Dólar)** e **EUR (Euro)** em tempo real. O projeto pode ser facilmente expandido para adicionar mais funcionalidades no futuro.
 
 ---
 
 ## 📦 **Instalação**
 
-Para usar o Conversor de Moedas, siga os passos abaixo para instalar o projeto localmente.
+Siga os passos abaixo para rodar o projeto localmente:
 
-1. Clone o repositório para o seu computador:
+1. **Clone o repositório**:
     ```bash
     git clone https://github.com/nandahelena/conversor-js.git
     ```
-2. Navegue até o diretório do projeto:
+2. **Entre no diretório do projeto**:
     ```bash
     cd conversor-js
     ```
+3. **Abra o arquivo `index.html` no seu navegador**:
+    - Clique duas vezes no arquivo `index.html`, ou
+    - Abra o arquivo diretamente em qualquer navegador de sua preferência.
 
 ---
 
 ## 🛠 **Pré-requisitos**
 
-Antes de rodar o projeto localmente, você precisará de:
-
-- Um navegador moderno (Google Chrome, Firefox, etc.)
-- **(Opcional) Visual Studio Code** com a extensão **Live Server** instalada (para visualização em tempo real).
+Este projeto não requer dependências externas ou servidores para funcionar. Você só precisa de um navegador moderno para visualizá-lo. No entanto, se você quiser rodá-lo de forma mais eficiente durante o desenvolvimento, recomendamos usar a extensão **Live Server** no **Visual Studio Code (VS Code)**.
 
 ### 📥 **Instalando o Live Server no VS Code**
-1. Abra o **VS Code**.
-2. Vá até a **extensão** clicando no ícone de quadrado à esquerda ou pressione `Ctrl+Shift+X`.
-3. Pesquise por **Live Server**.
-4. Clique em **Instalar** no resultado da pesquisa.
 
-Depois de instalado, você pode clicar com o botão direito sobre o arquivo `index.html` e selecionar **"Open with Live Server"** para abrir o projeto diretamente no seu navegador.
+1. Abra o **VS Code**.
+2. Acesse a aba de **extensões** (ícone de quadrado no menu lateral ou pressione `Ctrl+Shift+X`).
+3. Pesquise por **Live Server**.
+4. Clique em **Instalar** na extensão que aparecer.
+5. Após a instalação, clique com o botão direito sobre o arquivo `index.html` e selecione **"Open with Live Server"** para abrir o projeto diretamente no navegador.
 
 ---
 
@@ -47,22 +47,21 @@ Depois de instalado, você pode clicar com o botão direito sobre o arquivo `ind
 3. Selecione as moedas de **origem** e **destino**.
 4. Clique no botão **"Converter"** para ver o valor convertido em tempo real.
 
-> **Dica**: Se você estiver usando **VS Code**, pode utilizar a extensão **Live Server** para abrir o projeto localmente e ver as alterações em tempo real.
-
 ---
 
 ## 📷 **Demonstração**
 
 Veja o funcionamento do conversor de moedas:
 
-![Demonstração do Conversor](https://github.com/user-attachments/assets/bb1d75e3-1f22-4221-8739-66c40276552f)
+(![image](https://github.com/user-attachments/assets/9ee2726d-007b-4b9f-bacd-87f8639c2afb)
+
 
 ---
 
 ## 🔧 **Tecnologias Usadas**  
-- **HTML**: Estrutura e conteúdo da página
-- **CSS**: Estilos e layout
-- **JavaScript**: Lógica de conversão e interatividade
+- **HTML**: Estrutura e conteúdo da página.
+- **CSS**: Estilos e layout responsivo.
+- **JavaScript**: Lógica de conversão e interação em tempo real.
 
 ---
 
