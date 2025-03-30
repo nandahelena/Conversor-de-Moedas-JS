@@ -10,6 +10,8 @@ Este é um simples conversor de moedas feito com **HTML**, **CSS** e **JavaScrip
 
 ## 📦 **Instalação**
 
+Para usar o Conversor de Moedas, siga os passos abaixo para instalar o projeto localmente.
+
 1. Clone o repositório para o seu computador:
     ```bash
     git clone https://github.com/nandahelena/conversor-js.git
@@ -18,13 +20,29 @@ Este é um simples conversor de moedas feito com **HTML**, **CSS** e **JavaScrip
     ```bash
     cd conversor-js
     ```
-3. Abra o arquivo `index.html` em qualquer navegador de sua preferência.
+
+---
+
+## 🛠 **Pré-requisitos**
+
+Antes de rodar o projeto localmente, você precisará de:
+
+- Um navegador moderno (Google Chrome, Firefox, etc.)
+- **(Opcional) Visual Studio Code** com a extensão **Live Server** instalada (para visualização em tempo real).
+
+### 📥 **Instalando o Live Server no VS Code**
+1. Abra o **VS Code**.
+2. Vá até a **extensão** clicando no ícone de quadrado à esquerda ou pressione `Ctrl+Shift+X`.
+3. Pesquise por **Live Server**.
+4. Clique em **Instalar** no resultado da pesquisa.
+
+Depois de instalado, você pode clicar com o botão direito sobre o arquivo `index.html` e selecionar **"Open with Live Server"** para abrir o projeto diretamente no seu navegador.
 
 ---
 
 ## 🚀 **Como Usar**
 
-1. Abra o arquivo `index.html` em seu navegador.
+1. Abra o arquivo `index.html` no seu navegador.
 2. Insira o valor que deseja converter no campo de entrada.
 3. Selecione as moedas de **origem** e **destino**.
 4. Clique no botão **"Converter"** para ver o valor convertido em tempo real.
@@ -33,7 +51,8 @@ Este é um simples conversor de moedas feito com **HTML**, **CSS** e **JavaScrip
 
 ---
 
-## 📷 **Demonstração**  
+## 📷 **Demonstração**
+
 Veja o funcionamento do conversor de moedas:
 
 ![Demonstração do Conversor](https://github.com/user-attachments/assets/bb1d75e3-1f22-4221-8739-66c40276552f)
@@ -51,6 +70,7 @@ Veja o funcionamento do conversor de moedas:
 Este projeto está licenciado sob a **MIT License**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
+
 
 ## 📂 **Estrutura do Projeto**
 conversor-de-moedas-js/  
