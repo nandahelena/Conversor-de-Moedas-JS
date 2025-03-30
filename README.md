@@ -1,31 +1,64 @@
-# Conversor de Moedas
-Converte valores entre Real (BRL), Dólar (USD) e Euro (EUR)
+# 💰 **Conversor de Moedas**  
+Conversor de valores entre Real (BRL), Dólar (USD) e Euro (EUR)
 
-## 📦 Como usar  
-1. Clone o repositório:  
-`git clone https://github.com/nandahelena/conversor-js.git`
-3. Abra o `index.html` no navegador
-4. (Opcional) Se estiver usando o VS Code, instale a extensão Live Server e clique com o botão direito em index.html > "Open with Live Server" para rodar o projeto localmente.
-   
-## 🚀 Utilização
-- Insira o valor desejado
-- Escolha as moedas de conversão
-- Clique no botão Converter e veja o resultado em tempo real
-  
-## 📷 Demonstração  
-![image](https://github.com/user-attachments/assets/bb1d75e3-1f22-4221-8739-66c40276552f)
+[![MIT License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 
-## 🔧 Tecnologias usadas  
-- HTML, CSS, JavaScript
-  
-## 📜 Licença
-Este projeto está sob a licença MIT.
+## 📜 **Descrição**  
+Este é um simples conversor de moedas feito com **HTML**, **CSS** e **JavaScript**. Ele permite converter valores entre **BRL (Real)**, **USD (Dólar)** e **EUR (Euro)** em tempo real.
 
-## 📂 Estrutura do projeto
+---
+
+## 📦 **Instalação**
+
+1. Clone o repositório para o seu computador:
+    ```bash
+    git clone https://github.com/nandahelena/conversor-js.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd conversor-js
+    ```
+3. Abra o arquivo `index.html` em qualquer navegador de sua preferência.
+
+---
+
+## 🚀 **Como Usar**
+
+1. Abra o arquivo `index.html` em seu navegador.
+2. Insira o valor que deseja converter no campo de entrada.
+3. Selecione as moedas de **origem** e **destino**.
+4. Clique no botão **"Converter"** para ver o valor convertido em tempo real.
+
+> **Dica**: Se você estiver usando **VS Code**, pode utilizar a extensão **Live Server** para abrir o projeto localmente e ver as alterações em tempo real.
+
+---
+
+## 📷 **Demonstração**  
+Veja o funcionamento do conversor de moedas:
+
+![Demonstração do Conversor](https://github.com/user-attachments/assets/bb1d75e3-1f22-4221-8739-66c40276552f)
+
+---
+
+## 🔧 **Tecnologias Usadas**  
+- **HTML**: Estrutura e conteúdo da página
+- **CSS**: Estilos e layout
+- **JavaScript**: Lógica de conversão e interatividade
+
+---
+
+## 📜 **Licença**  
+Este projeto está licenciado sob a **MIT License**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## 📂 **Estrutura do Projeto**
 conversor-de-moedas-js/  
 │── index.html         
 │── styles.css         
 │── script.js          
 │── README.md           
-└── LICENSE         
+└── LICENSE     
+
+![Status do Build](https://img.shields.io/badge/build-passing-brightgreen)
 
